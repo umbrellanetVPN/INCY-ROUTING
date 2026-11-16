@@ -1,1 +1,37 @@
-
+{
+  "Name": "UMBRELLANET",
+  "GlobalProxy": "true",
+  "RouteOrder": "block-proxy-direct",
+  "RemoteDNSType": "DoH",
+  "RemoteDNSDomain": "",
+  "RemoteDNSIP": "",
+  "DomesticDNSType": "DoU",
+  "DomesticDNSDomain": "",
+  "DomesticDNSIP": "",
+  "Geoipurl": "",
+  "Geositeurl": "",
+  "LastUpdated": "",
+  "DnsHosts": {},
+  "DirectSites": [
+    "geosite:ru",
+    "geosite:geolocation-ru"
+  ],
+  "DirectIp": [
+    "geoip:ru"
+  ],
+  "ProxySites": [
+    "domain:tiktok.com",
+    "domain:tiktokv.com",
+    "domain:tiktokcdn.com",
+    "domain:youtube.com",
+    "domain:googlevideo.com",
+    "domain:instagram.com",
+    "domain:2ip.ru"
+  ],
+  "ProxyIp": [],
+  "BlockSites": [],
+  "BlockIp": [],
+  "DomainStrategy": "IPIfNonMatch",
+  "FakeDNS": "false",
+  "UseChunkFiles": "true"
+}
